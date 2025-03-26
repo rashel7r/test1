@@ -104,13 +104,13 @@ const RamadanSellers = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       <div className="container mx-auto px-4 py-8 flex-grow">
-        <Banner />
         <div className="flex gap-8">
           {/* Sidebar */}
           <Sidebar />
           
           {/* Main Content */}
           <div className="flex-1">
+            <Banner />
             <h2 className="text-[#4B2E83] text-2xl font-semibold mb-6">RAMADAN TOP SELLERS</h2>
             <div className="grid grid-cols-5 gap-x-6 gap-y-8">
               {products.map((product) => (
