@@ -38,7 +38,7 @@ const AboutUs = () => {
           <img 
             src={saleBanner} 
             alt="Sale Banner" 
-            className="w-[1440px] h-[410px] object-cover"
+            className="w-full h-[410px] object-cover"
           />
         </div>
 
