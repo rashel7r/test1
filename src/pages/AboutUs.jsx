@@ -3,6 +3,7 @@ import { Slide } from 'react-awesome-reveal';
 import CountUp from 'react-countup';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import WhyChooseUs from '../components/WhyChooseUs';
 import saleBanner from '../assets/sale-banner.jpg';
 import visionImage from '../assets/image-1.jpg';
 import missionImage from '../assets/image-2.jpg';
@@ -128,6 +129,8 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
+
+        <WhyChooseUs />
       </div>
       <Footer />
     </div>
